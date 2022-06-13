@@ -1,0 +1,84 @@
+/* Mobile & Tablet */
+@media (max-width:1023px){
+    
+}
+
+
+/* table */
+@media (min-width:740px) and (max-width:1023px){
+    .container{
+        display: block;
+    }
+    .hero-image-wrap img{
+        width: 100%;
+    }
+    .row-nowrap{
+        display: block;
+    }
+    .utility-container{
+        width: 100%;
+    }
+    .wide{
+        width: 100%;
+    }
+    .about-content__box .image img{
+        width: 100%;
+    }
+    .c-6{
+        max-width: 100%;
+    }
+    .roadmap-heading-text{
+        display: block;
+    }
+}
+
+
+
+
+/* Mobile */
+@media (max-width:739px){
+    .container{
+        display: block;
+    }
+    .hero-image-wrap img{
+        width: 100%;
+    }
+    .utility-container{
+        width: 100%;
+    }
+    .row-nowrap{
+        display: block;
+    }
+    .about-content__box .image img{
+        width: 100%;
+    }
+    .wide{
+        width: 100%;
+    }
+    .c-6{
+        max-width: 100%;
+    }
+    .utility-grid{
+        display: block;
+    }
+    .card{
+        margin: 15px 0;
+    }
+    .roadmap-content-wrap{
+        display: block;
+    }
+    .roadmap-heading-text{
+        display: block;
+    }
+    .team-container{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    .team-card p{
+        max-width: 100%;
+        text-align: center;
+    }
+    #faq .row{
+        display: block;
+    }
+}
